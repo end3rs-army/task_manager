@@ -1,7 +1,4 @@
-require 'sass'
 require 'models/task_manager'
-
-# get('/styles.css'){ scss :styles }
 
 class TaskManagerApp < Sinatra::Base
   set :root, File.join(File.dirname(__FILE__), '..')

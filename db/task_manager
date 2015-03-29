@@ -1,9 +1,9 @@
 ---
 tasks:
-- title: Update Method THIS TOO!!
-  description: "This is better than Waffle.io\r\nOh God please work."
-  id: 1
+- id: 1
+  title: Install Bootstrap
+  description: "Make this look good with bootstrap!\r\n"
 - id: 2
-  title: Tony Dinassssty!
-  description: Yoyoyoy
-total: 11
+  title: Delete SASS
+  description: Get rid of SASS... using Bootstrap to style
+total: 15
