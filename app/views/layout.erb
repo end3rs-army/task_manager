@@ -5,18 +5,27 @@
   <link href="/css/custom.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Task Manager</h1>
-    <nav>
-      <ul>
-        <li> <a href="/" title="Home">Home</a></li>
-        <li> <a href="/tasks" title="Task Index">Task Index</a></li>
-        <li> <a href="/tasks/new" title="New Tasks">Create Task</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div id="header_bar">
+      <div id="header_tabs">
+        <nav>
+          <ul>
+            <li> <a href="/" title="Home">Home</a></li>
+            <li> <a href="/tasks" title="Task Index">Task Index</a></li>
+            <li> <a href="/tasks/new" title="New Tasks">Create Task</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  <h1 id="page-title">Task Manager</h1>
   <section>
     <%= yield %>
   </section>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2 id="catch-phrase">...because it wasn't built in a day.</h2>
+    </div>
+  </div>
+</div>
 </body>
 </html>

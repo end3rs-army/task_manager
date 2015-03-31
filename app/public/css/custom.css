@@ -1,23 +1,171 @@
 body {
 
-  margin-left: 4px;
+  background-image: url(/images/pyramid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
 input {
 
   margin-top: 3px;
+  border: 1px;
+  width: 300px;
+  box-shadow: 0 0 10px black;
+
+}
+
+input:focus {
+
+  box-shadow: 0 0 10px yellow; 
+  outline: none;
 
 }
 
 textarea {
 
   margin-top: 3px;
+  margin-bottom: 6px;
+  border: 1px;
+  width: 300px;
+  height: 150px; 
+  box-shadow: 0 0 10px black; 
+
+}
+
+textarea:focus {
+
+  box-shadow: 0 0 10px yellow; 
+  outline: none;
 
 }
 
 .btn {
 
-  margin-top: 6px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 110px;
+
+}
+
+#catch-phrase {
+
+  color: white;
+  position: fixed;
+  top: 70%;
+
+}
+
+#header_bar {
+
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  border-style: solid;
+  border-color: black black #383838 black;
+  border-width: 2px;
+
+}
+
+#header_tabs {
+
+  float: right;
+  position: relative;
+  left: -50%;
+  text-align: left;
+
+}
+
+#header_tabs ul {
+
+  list-style: none;
+  position: relative;
+  white-space: nowrap;
+  left: 50%;
+
+}
+
+#header_tabs li {
+
+  display: inline-block;
+  position: relative;
+
+}
+
+#header_tabs a {
+
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 12px;
+  font-size: 150%
+  background: black;
+  float: left;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  white-space: nowrap;
+  border-color: #383838;
+  border-width: 2px;
+
+}
+
+#header_tabs a:hover {
+
+  color: yellow;
+  text-decoration: none;
+
+}  
+
+#page-title {
+
+  color: white;
+  text-align: center;
+  margin-top: 65px;
+
+}
+
+.task-forms {
+
+  margin-left: 175px;
+  margin-top: 90px;
+
+}
+
+.task-forms h3 {
+
+  color: white;
+
+}
+
+.task-forms h2 {
+
+  color: white;
+
+}
+
+.task-forms h4 {
+
+  color: white;
+
+}
+
+.task-forms a {
+
+  color: yellow;
+
+}
+
+.task-forms p {
+
+  color: white;
+  font-size: 150%;
+
+}
+
+#task-title {
+
+  color: yellow;
 
 }

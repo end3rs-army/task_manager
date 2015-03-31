@@ -1,9 +1,12 @@
 ---
 tasks:
-- id: 1
-  title: Install Bootstrap
+- title: Install Bootstrap
   description: "Make this look good with bootstrap!\r\n"
-- id: 2
-  title: Delete SASS
-  description: Get rid of SASS... using Bootstrap to style
-total: 15
+  id: 1
+- title: Build a pyramid
+  description: I'd like to build a pyramid...DONE!
+  id: 2
+- id: 3
+  title: Create Textarea glow on focus
+  description: "I want the boxes to glow when they are selected...\r\n\r\nDONE!"
+total: 17

@@ -1,16 +1,15 @@
-<!-- <a href="/tasks">Task Index</a> -->
+<div class="task-forms">
+  <h3 id="task-title"><%= @task.title %></h3>
 
-<h3><%= @task.title %></h3>
+  <p><%= @task.description %></p>
 
-<p><%= @task.description %></p>
+  <form action="/tasks/<%= @task.id %>/update" method="get">
+    <input type='submit' value='Update Task' class="btn btn-success"/>
+  </form>
 
-<form action="/tasks/<%= @task.id %>/update" method="get">
-  <input type='submit' value='Update Task' class="btn btn-success"/>
-</form>
-
-<form action="/tasks/<%= @task.id %>" method="post">
-  <input type="hidden" name="_method" value="DELETE">
-  <input type='submit' value='Delete Task' class="btn btn-danger"/>
-</form>
-
+  <form action="/tasks/<%= @task.id %>" method="post">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type='submit' value='Delete Task' class="btn btn-danger"/>
+  </form>
+</div>
 
